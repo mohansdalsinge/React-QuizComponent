@@ -3,7 +3,7 @@ import QuizQuestionButton from './QuizQuestionButton.js'
 class QuizQuestion extends Component{
 constructor(props){
   super(props)
-  this.setState = { incorrectAnswer: false }
+  this.state = { incorrectAnswer: false }
 }
 
 handleClick(buttonText){
@@ -30,7 +30,7 @@ handleClick(buttonText){
 
           </ul>
         </section>
-        {this.state.incorrectAnswer ? <p className='error'>Sorry,that's not right</p> : <h6>cool</h6>}
+        {this.state.incorrectAnswer ? <p className='error'>Sorry,that's not right</p> : null}
       </main>
     )
   }
