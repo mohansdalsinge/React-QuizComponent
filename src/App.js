@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Quiz from './Quiz.js'
 import './App.css'
 import Quiz from './Quiz.js'
 
